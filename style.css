@@ -1,0 +1,81 @@
+body{
+    background: -webkit-linear-gradient(90deg, #145277 ,#83D0CB , darkblue);
+    padding-bottom: 5rem;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9rem;
+    margin-top:6rem;
+}
+.container h1{
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+.mainbox{
+    background-color: #ADD8E6;
+    background-image: url(TDLW.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 18rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 0.2px solid blue;
+    padding-top: 0;
+    box-shadow: 40px 40px 40px #0b0c0c;
+}ul li::before{
+    content: ''; 
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 9px;
+}
+ul li .checked{
+    color: #555;
+    text-decoration: line-through;
+}
+.text ul{
+    position: relative;
+    background-color: rgb(248, 243, 95);
+    font-size: 19px;
+    padding: 0.65rem;
+    text-align: left;
+    border-radius: 5px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    background-color: rgb(248, 243, 95);
+    font-weight: 500;
+}
+
+.container input{
+    font-size: 1rem;
+    border-radius: 4px;
+    border: #0b0c0c 2px solid;
+    padding: 6px;
+    background-color: #fff;
+}
+.container button{
+    font-size: 1rem;
+    background-color: rgb(3, 1, 136);
+    color: #f0eeee;
+    border-radius: 10%;
+    padding: 6px;
+}
